@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Luigi Bozzoli — Java Backend Engineer | Spring Boot · AWS · Kafka</title>
+
+  <meta name="description"
+    content="Java backend engineer with 3+ years at Deloitte delivering distributed systems for major financial institutions. Spring Boot · Apache Kafka · AWS. Open to remote contracts with US-based teams.">
+
+  <meta name="author" content="Luigi Bozzoli">
+
+
+  <link rel="canonical" href="https://luigi-bozzoli.github.io/">
+
+  <meta name="robots" content="index, follow">
+
+  <meta name="theme-color" content="#070a13">
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://luigi-bozzoli.github.io/">
+  <meta property="og:title" content="Luigi Bozzoli — Java Backend Engineer">
+  <meta property="og:description"
+    content="3+ years at Deloitte building distributed Java systems for major financial institutions. Spring Boot · Apache Kafka · AWS. Open to remote contracts with US-based teams.">
+
+  <meta property="og:image" content="https://luigi-bozzoli.github.io/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Luigi Bozzoli — Java Backend Engineer">
+  <meta name="twitter:description"
+    content="3+ years at Deloitte building distributed Java systems for major financial institutions. Spring Boot · Apache Kafka · AWS. Open to remote contracts with US-based teams.">
+  <meta name="twitter:image" content="https://luigi-bozzoli.github.io/og-image.png">
+  <script type="module" crossorigin src="/assets/index-C97RsET8.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-D1pzucqa.css">
+</head>
+
+<body>
+  <header class="header container">
+    <nav>
+      <ul class="header__menu">
+        <li><a class="header__link" href="#about">About</a></li>
+        <li><a class="header__link" href="#experience">Experience</a></li>
+        <li><a class="header__link" href="#stack">Tech Stack</a></li>
+        <li><a class="header__link" href="#certs">Certifications</a></li>
+        <li><a class="header__link" href="#work">Work</a></li>
+        <li><a class="header__link" href="#contact">Contact</a></li>
+        <li>
+          <a class="header__link" href="https://github.com/luigi-bozzoli" target="_blank" rel="noopener noreferrer"
+            aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="header__icon">
+              <path
+                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12Z" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a class="header__link" href="https://linkedin.com/in/luigi-bozzoli" target="_blank" rel="noopener noreferrer"
+            aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="header__icon">
+              <path
+                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+            </svg>
+          </a>
+        </li>
+        <li class="header__line"></li>
+        <li>
+          <button class="header__sun theme-toggle">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+            </svg>
+          </button>
+        </li>
+        <li>
+          <a class="header__resume btn" href="/luigi-bozzoli-resume.pdf">Resume</a>
+        </li>
+      </ul>
+      <button class="header__bars">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+          <path fill-rule="evenodd"
+            d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
+            clip-rule="evenodd" />
+        </svg>
+      </button>
+    </nav>
+  </header>
+  <!--Mobile menu-->
+  <div class="mobile-nav">
+    <nav>
+      <ul class="mobile-nav__menu">
+        <li><a class="mobile-nav__link" href="#about">About</a></li>
+        <li><a class="mobile-nav__link" href="#experience">Experience</a></li>
+        <li><a class="mobile-nav__link" href="#stack">Tech Stack</a></li>
+        <li><a class="mobile-nav__link" href="#certs">Certifications</a></li>
+        <li><a class="mobile-nav__link" href="#work">Work</a></li>
+        <li><a class="mobile-nav__link" href="#contact">Contact</a></li>
+        <li>
+          <a class="header__link" href="https://github.com/luigi-bozzoli" target="_blank" rel="noopener noreferrer"
+            aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="header__icon">
+              <path
+                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12Z" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a class="header__link" href="https://linkedin.com/in/luigi-bozzoli" target="_blank" rel="noopener noreferrer"
+            aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="header__icon">
+              <path
+                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-nav__link-line"></li>
+        <li><button class="mobile-nav__sun theme-toggle">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+            </svg>
+          </button></li>
+        <li>
+          <a class="mobile-nav__btn btn" href="#">Resume</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!--Mobile menu end-->
+  <main>
+    <!-- HERO -->
+    <section class="hero container">
+      <h2 class="hero__subtitle">Luigi Bozzoli</h2>
+      <h1 class="hero__title">BACKEND ENGINEER</h1>
+      <p class="hero__tech-subtitle">Java · Spring Boot · Apache Kafka · AWS — 3+ years in enterprise production ·
+        Remote · No U.S. visa required.</p>
+      <a class="hero__btn btn" href="#contact">Reach out</a>
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about" class="about container section">
+      <div class="about__content">
+        <h2 class="about__title">About</h2>
+        <p class="about__description">
+          Backend engineer with <strong>3+ years</strong> building <strong>production systems</strong> for major
+          financial institutions and public
+          sector clients. I specialise in distributed back-end architecture —
+          <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>Apache Kafka</strong>, and <strong>AWS</strong>
+          — and contribute front-end work in <strong>React</strong> and <strong>Angular</strong> when the project
+          calls for it. My experience spans <strong>event-driven pipelines</strong>, RESTful API design, <strong>ETL
+            automation</strong>, and
+          <strong>cloud-deployed microservices</strong> in <strong>regulated environments</strong>.
+        </p>
+        <p class="about__description">
+          Available for <strong>remote contracts</strong>, flexible on hours and schedule. I work
+          <strong>async-first</strong> — written communication, minimal meetings, and comfortable operating with a high
+          degree of
+          <strong>autonomy</strong>. Based in Italy, I overlap comfortably with <strong>EST business hours</strong>.
+          EU citizen — <strong>no U.S. visa required</strong> for contractor engagements.
+        </p>
+        <p class="about__description">
+          What keeps me engaged is the combination of craft and curiosity. I find genuine satisfaction in solving a
+          back-end design problem cleanly — where the solution is not just correct but maintainable — and in going
+          deep enough on a technology to understand its tradeoffs, not just its surface API.
+        </p>
+      </div>
+    </section>
+
+    <!--EXPERIENCE-->
+    <section id="experience" class="experience container section">
+      <h2 class="experience__title">Experience</h2>
+      <div class="experience__list">
+
+        <div class="experience__item">
+          <div class="experience__meta">
+            <span class="experience__company">Deloitte</span>
+            <span class="experience__period">Mar 2023 — Present</span>
+          </div>
+          <h3 class="experience__role">Software Engineer · Full-Stack</h3>
+          <ul class="experience__highlights">
+            <li><strong>Designed and integrated</strong> an <strong>Apache Kafka</strong> data-streaming layer for a
+              conversational AI
+              platform deployed at Intesa Sanpaolo — Italy's largest bank with <strong>14M+ customers</strong> —
+              processing <strong>thousands of
+                events per day</strong> with reliable delivery guarantees across distributed service boundaries.</li>
+            <li><strong>Architected and delivered</strong> a <strong>batch processing pipeline from the ground
+                up</strong> for the same
+              platform, handling high-throughput scheduled workloads across multiple service layers.</li>
+            <li><strong>Built</strong> accessible, cross-device <strong>React</strong> interfaces for the conversational
+              AI platform,
+              owning front-end implementation across multiple feature areas and ensuring <strong>WCAG
+                compliance</strong> across all
+              viewport sizes.</li>
+            <li><strong>Drove test coverage from near-zero to meaningful levels</strong> by introducing AI-assisted
+              <strong>JUnit</strong> suite generation across service layers, systematically reducing regression risk on
+              a codebase
+              with no prior automated testing.
+            </li>
+            <li><strong>Designed and built</strong> the <strong>back-end simulator end-to-end</strong> for an Energy
+              Community
+              Management Platform, enabling users to model projected savings and earnings from joining specific
+              energy communities — the core value feature of the product.</li>
+            <li><strong>Co-designed and delivered</strong> a <strong>Java Spring Boot</strong> microservice exposing
+              <strong>RESTful APIs</strong> for
+              a regional government's social voucher programme, owning the full API surface and end-to-end lifecycle
+              management of <strong>50–200 active vouchers</strong> at any given time.
+            </li>
+            <li>Collaborated with a German-based international team on cross-border architectural design discussions
+              for a multi-market sign-up flow, contributing to decisions that shaped the application's evolution
+              across regions.</li>
+            <li>Operated within <strong>Agile/Scrum</strong> teams across all project phases using Jira and
+              Confluence, working in cross-functional groups of <strong>3–5 engineers</strong> through design,
+              development, and
+              delivery.</li>
+          </ul>
+        </div>
+
+        <div class="experience__item">
+          <div class="experience__meta">
+            <span class="experience__company">AXA</span>
+            <span class="experience__period">Sep 2022 — Mar 2023</span>
+          </div>
+          <h3 class="experience__role">Data &amp; Automation Engineer</h3>
+          <ul class="experience__highlights">
+            <li><strong>Designed and automated 16–20 manual data workflows</strong> spanning insurance policy data,
+              claims data, and internal tooling using <strong>SSIS</strong> and <strong>SQL Server</strong> —
+              eliminating an estimated
+              <strong>40+ hours of manual effort per week</strong> across multiple business teams.
+            </li>
+            <li><strong>Reduced</strong> per-workflow processing time from <strong>1–2 hours to under 5 minutes</strong>
+              by replacing
+              Excel and CSV-driven manual processes with end-to-end <strong>ETL pipelines</strong>, removing an entire
+              class of
+              recurring data-entry errors in the process.</li>
+            <li><strong>Built</strong> bidirectional pipelines handling both ingestion — loading structured input files
+              into <strong>SQL Server</strong>
+              production databases — and extraction, transforming and delivering business reports consumed by AXA
+              internal teams on a daily and weekly cadence.</li>
+            <li><strong>Operated autonomously</strong> throughout a 6-month engagement, reporting directly to
+              management and supporting senior stakeholders on complex, multi-team data coordination tasks without
+              supervision.</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TECH STACK -->
+    <section id="stack" class="stack container section">
+      <h2 class="stack__title">Tech Stack</h2>
+      <div class="stack__grid">
+
+        <div class="stack__group">
+          <h3 class="stack__group-title">Backend</h3>
+          <ul class="stack__tags">
+            <li class="stack__tag">Java</li>
+            <li class="stack__tag">Spring Boot</li>
+            <li class="stack__tag">Python</li>
+            <li class="stack__tag">REST APIs</li>
+            <li class="stack__tag">Apache Kafka</li>
+            <li class="stack__tag">JPA / Hibernate</li>
+            <li class="stack__tag">JUnit</li>
+          </ul>
+        </div>
+
+        <div class="stack__group">
+          <h3 class="stack__group-title">Databases</h3>
+          <ul class="stack__tags">
+            <li class="stack__tag">MySQL</li>
+            <li class="stack__tag">PostgreSQL</li>
+            <li class="stack__tag">DynamoDB</li>
+            <li class="stack__tag">SQL Server</li>
+            <li class="stack__tag">SSIS</li>
+          </ul>
+        </div>
+
+        <div class="stack__group">
+          <h3 class="stack__group-title">Cloud &amp; Infra</h3>
+          <ul class="stack__tags">
+            <li class="stack__tag">AWS S3</li>
+            <li class="stack__tag">SQS</li>
+            <li class="stack__tag">Terraform</li>
+          </ul>
+        </div>
+
+        <div class="stack__group">
+          <h3 class="stack__group-title">Frontend &amp; Tools</h3>
+          <ul class="stack__tags">
+            <li class="stack__tag">React</li>
+            <li class="stack__tag">Angular</li>
+            <li class="stack__tag">TypeScript</li>
+            <li class="stack__tag">Tailwind CSS</li>
+            <li class="stack__tag">Git</li>
+            <li class="stack__tag">Jira</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certs" class="certs container section">
+      <h2 class="certs__title">Certifications</h2>
+      <div class="certs__list">
+
+        <div class="certs__item">
+          <div>
+            <p class="certs__name">AWS Certified Solutions Architect – Associate</p>
+            <p class="certs__issuer">Amazon Web Services</p>
+          </div>
+          <div class="certs__meta">
+            <span class="certs__date">Oct 2024</span>
+            <a class="certs__verify"
+              href="https://cp.certmetrics.com/amazon/en/public/verify/credential/f54903ba097544b88edeb1671dae37ee"
+              target="_blank" rel="noopener noreferrer">Verify
+              ↗</a>
+          </div>
+        </div>
+        <div class="certs__item">
+          <div>
+            <p class="certs__name">AWS Certified Cloud Practitioner</p>
+            <p class="certs__issuer">Amazon Web Services</p>
+          </div>
+          <div class="certs__meta">
+            <span class="certs__date">Oct 2023</span>
+            <a class="certs__verify"
+              href="https://cp.certmetrics.com/amazon/en/public/verify/credential/Jh3dw1p1vm411133" target="_blank"
+              rel="noopener noreferrer">Verify↗</a>
+          </div>
+        </div>
+        <div class="certs__item">
+          <div>
+            <p class="certs__name">Azure AI-900</p>
+            <p class="certs__issuer">Microsoft</p>
+          </div>
+          <div class="certs__meta">
+            <span class="certs__date">Oct 2025</span>
+            <a class="certs__verify"
+              href="https://cp.certmetrics.com/amazon/en/public/verify/credential/Jh3dw1p1vm411133" target="_blank"
+              rel="noopener noreferrer">Verify↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--PROJECTS-->
+    <section id="work" class="work container section">
+      <h2 class="work__title">Selected Work</h2>
+
+      <p class="work__description">
+        A selection of projects focused on infrastructure, performance, and clean user experience.
+      </p>
+
+      <div class="work__grid">
+
+        <!-- PROJECT 1 -->
+        <article class="work__card">
+          <div class="work__image-wrapper">
+            <img loading="lazy" src="https://github.com/luigi-bozzoli/brawl-stats-fe/blob/main/brawlstats.png?raw=true"
+              alt="BrawlStats app screenshot" class="work__image" />
+          </div>
+
+          <div class="work__content">
+            <p class="work__eyebrow">Serverless Infrastructure</p>
+
+            <h3 class="work__project-title">BrawlStats</h3>
+
+            <div class="work__stack">
+              <span>AWS</span>
+              <span>Terraform</span>
+              <span>Lambda</span>
+              <span>DynamoDB</span>
+              <span>React</span>
+            </div>
+
+            <p class="work__project-description">
+              Built a <strong>fully serverless AWS data pipeline</strong> that ingests player data from
+              the Brawl Stars API using <strong>Lambda</strong>, <strong>SQS</strong>, <strong>DynamoDB</strong>, and
+              <strong>API Gateway</strong> —
+              provisioned entirely with <strong>Terraform</strong>.
+            </p>
+
+            <p class="work__project-description">
+              Includes a <strong>React</strong> frontend with <strong>live leaderboards</strong> and individual player
+              stat pages designed for <strong>fast performance</strong> and <strong>mobile usability</strong>.
+            </p>
+
+            <div class="work__buttons">
+              <a href="https://luigi-bozzoli.github.io/brawl-stats-fe/" target="_blank" rel="noopener noreferrer"
+                class="btn work__btn">
+                Live Demo
+              </a>
+
+              <a href="https://github.com/luigi-bozzoli/brawl-stats" target="_blank" rel="noopener noreferrer"
+                class="work__github">
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 2 -->
+        <article class="work__card work__card--reverse">
+          <div class="work__image-wrapper">
+            <img loading="lazy" src="https://github.com/luigi-bozzoli/phrasal-flash/blob/main/phrasalflash.png?raw=true"
+              alt="Phrasal Flash app screenshot" class="work__image" />
+          </div>
+
+          <div class="work__content">
+            <p class="work__eyebrow">Language Learning App</p>
+
+            <h3 class="work__project-title">Phrasal Flash</h3>
+
+            <div class="work__stack">
+              <span>React</span>
+              <span>TypeScript</span>
+              <span>Tailwind</span>
+              <span>Python</span>
+            </div>
+
+            <p class="work__project-description">
+              Built a focused flashcard app for learning English phrasal verbs with a
+              <strong>clean mobile-first interface</strong> and <strong>fast client-side performance</strong>.
+            </p>
+
+            <p class="work__project-description">
+              The dataset was <strong>curated and processed with Python</strong> to improve consistency,
+              quality, and learning flow.
+            </p>
+
+            <div class="work__buttons">
+              <a href="https://luigi-bozzoli.github.io/phrasal-flash/" target="_blank" rel="noopener noreferrer"
+                class="btn work__btn">
+                Live Demo
+              </a>
+
+              <a href="https://github.com/luigi-bozzoli/phrasal-flash" target="_blank" rel="noopener noreferrer"
+                class="work__github">
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+
+    <section id="contact" class="contact container section">
+      <h2 class="contact__title">Get in contact</h2>
+      <p class="contact__description">
+        Available for remote contracts and full-time remote roles with US-based teams.
+        The best way to reach me is via LinkedIn — I typically respond within 24 hours.
+        Feel free to message directly; I accept connection requests from anyone in tech.
+      </p>
+      <div class="contact__buttons">
+        <a href="https://linkedin.com/in/luigi-bozzoli" target="_blank" rel="noopener noreferrer"
+          class="contact__button btn">
+          Connect on LinkedIn
+        </a>
+        <a href="https://github.com/luigi-bozzoli" target="_blank" rel="noopener noreferrer" class="contact__github">
+          GitHub
+        </a>
+      </div>
+    </section>
+
+    <footer class="footer container section">
+      <h3 class="footer__title">- Luigi Bozzoli -</h3>
+    </footer>
+  </main>
+</body>
+
+</html>
