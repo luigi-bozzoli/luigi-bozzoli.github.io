@@ -1,0 +1,213 @@
+/* =========================
+   WORK SECTION
+========================= */
+
+.work {
+    padding-top: 6rem;
+}
+
+.work__title {
+    font-size: var(--size-4xl);
+    color: var(--clr-light);
+    text-align: center;
+    line-height: 1;
+}
+
+.work__description {
+    max-width: 60ch;
+    margin: 1rem auto 0;
+    font-size: var(--size-sm);
+    color: var(--clr-slate400);
+    text-align: center;
+}
+
+/* =========================
+   GRID
+========================= */
+
+.work__grid {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+/* =========================
+   CARD
+========================= */
+
+.work__card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.work__card--reverse {
+    direction: ltr;
+}
+
+/* =========================
+   IMAGE
+========================= */
+
+.work__image-wrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 18px;
+    border: 1px solid rgba(var(--clr-green-rgb), 0.15);
+    background-color: var(--clr-slate800);
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.35),
+        0 0 0 1px rgba(255, 255, 255, 0.02);
+}
+
+.work__image {
+    width: 100%;
+    display: block;
+}
+
+/* =========================
+   CONTENT
+========================= */
+
+.work__content {
+    text-align: left;
+}
+
+.work__eyebrow {
+    color: var(--clr-green);
+    font-size: var(--size-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.5rem;
+}
+
+.work__project-title {
+    font-size: var(--size-2xl);
+    color: var(--clr-light);
+    line-height: 1.1;
+}
+
+.work__stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0 1.5rem;
+}
+
+.work__stack span {
+    font-size: var(--size-xs);
+    color: var(--clr-slate400);
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    padding: 0.35rem 0.75rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.work__project-description {
+    color: var(--clr-slate400);
+    font-size: var(--size-sm);
+    max-width: 60ch;
+}
+
+.work__project-description+.work__project-description {
+    margin-top: 1rem;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+.work__buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.work__btn {
+    display: inline-block;
+}
+
+.work__github {
+    color: var(--clr-slate400);
+    font-size: var(--size-sm);
+    transition: color 0.2s ease;
+}
+
+.work__github:hover {
+    color: var(--clr-light);
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (min-width: 768px) {
+
+    .work__card,
+    .work__card--reverse {
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+
+    .work__card--reverse .work__image-wrapper {
+        order: 2;
+    }
+
+    .work__card--reverse .work__content {
+        order: 1;
+    }
+
+    .work__description {
+        font-size: var(--size-base);
+    }
+
+    .work__project-description {
+        font-size: var(--size-base);
+    }
+}
+
+/* =========================
+   DESKTOP
+========================= */
+
+@media (min-width: 1024px) {
+    .work__title {
+        font-size: var(--size-5xl);
+    }
+
+    .work__grid {
+        gap: 7rem;
+    }
+
+    .work__project-title {
+        font-size: var(--size-3xl);
+    }
+
+    .work__project-description {
+        font-size: var(--size-lg);
+    }
+}
+
+/* =========================
+   LIGHT MODE
+========================= */
+
+.light-mode .work__title,
+.light-mode .work__project-title {
+    color: var(--clr-dark);
+}
+
+.light-mode .work__project-description,
+.light-mode .work__description,
+.light-mode .work__github,
+.light-mode .work__stack span {
+    color: var(--clr-slate600);
+}
+
+.light-mode .work__image-wrapper {
+    background-color: #ffffff;
+    border: 1px solid rgba(15, 23, 42, 0.08);
+}

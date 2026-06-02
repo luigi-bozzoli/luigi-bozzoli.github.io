@@ -1,0 +1,128 @@
+.experience__title {
+    font-size: var(--size-2xl);
+    color: var(--clr-light);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.experience__list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.experience__item {
+    border-left: 2px solid var(--clr-green);
+    padding-left: 1.5rem;
+}
+
+.experience__meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.25rem;
+}
+
+.experience__company {
+    font-size: var(--size-base);
+    font-weight: 700;
+    color: var(--clr-light);
+    letter-spacing: -0.02em;
+}
+
+.experience__period {
+    font-size: var(--size-xs);
+    color: var(--clr-slate600);
+    font-weight: 500;
+}
+
+.experience__role {
+    font-size: var(--size-sm);
+    color: var(--clr-green);
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.experience__highlights {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.experience__highlights li {
+    font-size: var(--size-sm);
+    color: var(--clr-slate600);
+    padding-left: 1rem;
+    position: relative;
+}
+
+.experience__highlights li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.7em;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--clr-green);
+}
+
+
+@media (min-width: 475px) {
+    .experience__title {
+        font-size: var(--size-3xl);
+    }
+
+    .experience__company {
+        font-size: var(--size-lg);
+    }
+
+    .experience__role {
+        font-size: var(--size-base);
+    }
+
+    .experience__highlights li {
+        font-size: var(--size-base);
+    }
+
+    .experience__period {
+        font-size: var(--size-sm);
+    }
+}
+
+@media (min-width: 1024px) {
+    .experience__title {
+        font-size: var(--size-4xl);
+    }
+
+    .experience__item {
+        padding-left: 2rem;
+    }
+
+    .experience__company {
+        font-size: var(--size-xl);
+    }
+
+    .experience__role {
+        font-size: var(--size-lg);
+    }
+
+    .experience__highlights li {
+        font-size: var(--size-lg);
+    }
+}
+
+@media (min-width: 1280px) {
+    .experience__title {
+        font-size: var(--size-5xl);
+    }
+
+    .experience__list {
+        max-width: 75ch;
+        margin: 0 auto;
+    }
+}
