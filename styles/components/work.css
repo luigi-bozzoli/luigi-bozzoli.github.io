@@ -190,24 +190,3 @@
         font-size: var(--size-lg);
     }
 }
-
-/* =========================
-   LIGHT MODE
-========================= */
-
-.light-mode .work__title,
-.light-mode .work__project-title {
-    color: var(--clr-dark);
-}
-
-.light-mode .work__project-description,
-.light-mode .work__description,
-.light-mode .work__github,
-.light-mode .work__stack span {
-    color: var(--clr-slate600);
-}
-
-.light-mode .work__image-wrapper {
-    background-color: #ffffff;
-    border: 1px solid rgba(15, 23, 42, 0.08);
-}
